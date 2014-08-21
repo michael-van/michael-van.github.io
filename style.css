@@ -1,0 +1,170 @@
+body {
+	color: #ff9d2e;
+	font-family: Open Sans;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+h3 {
+	font-family: Montserrat;
+}
+
+(add period to put in effect) header {
+	float: left;
+}
+
+.header {
+	background-image: url("greyscale.svg");
+	padding-bottom: 0px;
+}
+
+.navbar {
+	margin-left:15px;
+}
+
+nav li a {
+	color: #ff9d2e;
+	display: inline;
+}
+
+.nav-pills {
+	margin-left: -10px;
+	float: left;
+}
+
+a {
+	color: #ff9d2e;
+}
+
+a:hover {
+	color: #cc7d24;
+}
+
+a:visited {
+	color: #cc7d24;
+}
+
+.divider {
+	width:100%;
+	height:5px;
+	background-color: #ff9d2e;
+	margin-top:-20px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background-color: #ff9d2e;
+}
+
+img {
+	height: 30px;
+	width: 30px;
+	padding:-10px;
+	margin: -10px -4px -10px -10px;
+}
+
+.underline {
+	height:2px;
+	width:220px;
+	background-color:#ff9d2e;
+	margin-bottom:10px;
+}
+
+.me {
+	text-align: center;
+	font-size:10px;
+}
+
+.jumbotron h1 {
+	text-shadow:0 0px 0px;
+	font-family: Montserrat;
+}
+
+.jumbotron p {
+	text-shadow: 0 0px 0px;
+}
+
+.no-bullets {
+	list-style-type: none;
+}
+
+.books {
+	display: none;
+}
+
+.music {
+	display: none;
+}
+
+
+
+.more-info {
+	margin-right: -15px;
+	float:right;
+}
+
+.footer-container {
+	padding-top: 5px;
+	background-color: #474747;
+	height: 155px;
+}
+
+.left {
+	float:left;
+	color: white;
+	margin-left: 71px;
+	width:33%;
+}
+
+a {
+	color: #ff9d2e;
+}
+
+#foot-links {
+	display: block;
+	line-height: 135%;
+	margin-top: 5px;
+}
+
+.underline-left {
+	height: 2px;
+	width:100px;
+	background-color: #ff9d2e;
+	margin-top: -10px;
+}
+
+.underline-right {
+	height: 2px;
+	width:100px;
+	background-color: #ff9d2e;
+	margin-top: -10px;
+	float:right;
+}
+
+#mail {
+	width:30px;
+	height:30px;
+}
+
+#twitter {
+	width: 30px;
+	height: 30px;
+}
+
+.center {
+	float:left;
+	color: white;
+	text-align:center;
+	width:33%;
+	margin-left:-75px;
+}
+
+.right {
+	float:right;
+	color: white;
+	text-align: right;
+	margin-right: 71px;
+	line-height: 135%;
+}
+
