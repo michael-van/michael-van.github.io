@@ -1,0 +1,19 @@
+html {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),url('images/betadragon.jpg') no-repeat center center fixed;
+
+  height: 100%;
+  background-size: cover;
+}
+
+#wrapper {
+  position: relative;
+  width: 45%;
+  height: 20%;
+  margin-top: 40px;
+  margin-left: 25px;
+  font-family: 'Caudex';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2.0vw;
+  color: #fff;
+}
