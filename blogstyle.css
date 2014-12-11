@@ -109,3 +109,13 @@ a:visited {
 a:visited:hover {
 	color: #ccff00;
 }
+
+#twitter {
+	background-color: null;
+	color: black;
+	border-radius: 0px;
+}
+
+.social_media {
+	padding-top: 10px;
+}
