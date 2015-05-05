@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html>
+<head>
+    <title> Buttons </title>
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <style>
+        body {
+          background-color: #f6d79c;
+        }
+
+        #button {
+          background-color: #505874;
+          color: #f6d79c;
+          max-width: 200px;
+          padding: 15px;
+          border-radius:10px;
+          margin:auto;
+          text-align:center;
+          font-family: Oswald;
+          font-size: 2em;
+          margin-top: 25%;
+          margin-bottom: 25%;
+        }
+
+        #button:hover {
+          background-color: #ab5e5e;
+          cursor: pointer;
+        }
+
+        #outputDiv {
+          color: #505874;
+          margin:auto;
+          font-family: Oswald;
+          max-width: 200px;
+          text-align:center;
+          font-size: 1.5em;
+        }
+    </style>
+
+    <script type="text/javascript">
+        function Clicked() {
+          document.getElementById('outputDiv').innerHTML = "You clicked me!";
+        }
+    </script>
+</head>
+
+<body>
+    <div id="button" onclick="Clicked()"> I'm a button </div>
+    <div id="outputDiv"></div>
+</body>
+</html>

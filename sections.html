@@ -1,0 +1,92 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Sections</title>
+    <link href='http://fonts.googleapis.com/css?family=Coustard' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        margin:0;
+        padding:0;
+      }
+
+      #overlay {
+        opacity:0.5;
+        background-color:black;
+        position: absolute;
+        left: 0;
+        top: 0;
+        min-height:100vh;
+        width:100%;
+      }
+
+      #header {
+        background-image: url('desk.jpg');
+        background-size:cover;
+        min-height:100vh;
+      }
+
+      #description {
+        background-color: #e3f7ff;
+        height: 40vh;
+      }
+
+      .positioning {
+        position:absolute;
+        width:100%;
+      }
+
+      .titleArea {
+        max-width:300px;
+        margin:auto;
+        margin-top:20%;
+        margin-bottom:10%;
+        background-color: rgba(0,0,0,0.3);
+        padding: 2em;
+      }
+
+      #title {
+        font-family: Coustard;
+        font-size:4em;
+        text-align:center;
+        letter-spacing:5px;
+        color: #f0f0f0;
+        margin:0;
+      }
+
+      #button {
+        font-family: Coustard;
+        text-align:center;
+        margin:0;
+        color: #f0f0f0;
+      }
+
+      #buttonStyle {
+        background-color: #ff4350;
+        border-radius:5px;
+        padding: 3px;
+      }
+
+      #buttonStyle:hover {
+        background-color: #b22e38;
+        color: #d8d8d8;
+        cursor: pointer;
+      }
+    </style>
+</head>
+
+<body>
+    <div id="overlay"></div>
+    <div id="header">
+        <div class="positioning">
+        <div class="titleArea">
+            <p id="title"> Sections </p>
+            <p id="button"> <span id="buttonStyle">I'm a button</span> </p>
+        </div>
+        </div>
+    </div>
+    <div id="description"></div>
+</body>
+
+</html>
